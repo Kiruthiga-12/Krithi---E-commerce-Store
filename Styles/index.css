@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.homepage_header {
+  width: 100%;
+  background-color: #222;
+  color: white;
+  position: sticky;
+  top: 0;
+}
+.homepage_header_nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+.homepage_header_ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 0.5;
+}
+.homepage_header_ul li {
+  list-style-type: none;
+  display: inline-block;
+  flex: 2;
+  cursor: pointer;
+}
+#cart_icon {
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  background-image: linear-gradient(to right, cyan, blue);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.banner_div {
+  text-align: center;
+}
+
+/* Modern gradient button - Primary */
+.banner_button {
+  background: linear-gradient(135deg, #003d82 0%, #000000 100%);
+  color: white;
+  border: none;
+  padding: 0.5vw 1vw;
+  border-radius: 8px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 61, 130, 0.4);
+}
+
+.banner_button:hover {
+  background: linear-gradient(135deg, #000000 0%, #003d82 100%);
+  box-shadow: 0 6px 20px rgba(0, 61, 130, 0.6);
+  transform: translateY(-2px);
+}
+
+#product_container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 0.2fr));
+  grid-auto-rows: 1fr;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  border: 1px solid rgb(204, 200, 200);
+  box-shadow: 1px 1px 5px 1px rgb(204, 200, 200);
+  margin-top: 2vw;
+}
+.product_item {
+  border-radius: 5px;
+  border: 1px solid rgb(204, 200, 200);
+  box-shadow: 1px 1px 5px 1px rgb(204, 200, 200);
+  text-align: center;
+  cursor: pointer;
+  margin: 1vw;
+  padding: 0.8vw;
+}
+
+#filter_line li {
+  display: inline;
+  background-color: lightgreen;
+  padding: 0.5vw 1.5vw;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#product_section,
+#footer {
+  margin: 1.5vw;
+}

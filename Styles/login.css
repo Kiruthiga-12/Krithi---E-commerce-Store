@@ -1,0 +1,16 @@
+#login_form {
+  text-align: center;
+  margin: 2vw auto ;
+  width: 30%;
+  border: 1px solid green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding:2vw;
+}
+
+#login_form label,
+#login_form input {
+  display: block;
+}

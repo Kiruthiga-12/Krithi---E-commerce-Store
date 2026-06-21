@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Krithi Products Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/Styles/products.css" />
+    <link rel="stylesheet" type="text/css" href="/Styles/index.css" />
+  </head>
+  <body>
+    <!--Header Section-->
+    <header class="homepage_header">
+      <nav class="homepage_header_nav">
+        <h3>Krithi</h3>
+        <ul class="homepage_header_ul">
+          <li id="home_route">Home</li>
+          <li>Shop</li>
+          <li>Cart</li>
+          <li id="login">Login</li>
+          <li id="logout">Logout</li>
+        </ul>
+        <input type="search" id="search_item" placeholder="Search..." />
+        <p id="cart_icon">&#128722; <sup id="cart_count"></sup></p>
+      </nav>
+    </header>
+    <!-- View Products Section-->
+    <section id="product_section">
+      <!--Left Pane-->
+      <div>image</div>
+      <!--Right Pane-->
+      <div>
+        <h1>Product Name</h1>
+        <p>Price: $100.00</p>
+        <p>Category: Electronics</p>
+        <p>Description: This is a great product!</p>
+        <p>Quantity: 10</p>
+        <input type="button" value="Add to Cart" class="banner_button" id="add_prod_cart" />
+      </div>
+    </section>
+    <script src="view_products.js" type="module"></script>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Krithi Login Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/Styles/login.css" />
+    <link rel="stylesheet" type="text/css" href="/Styles/index.css" />
+  </head>
+  <body>
+    <!--Login Form-->
+    <form id="login_form">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" />
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" />
+      <input type="submit" value="Login" class="banner_button" />
+      <p>Don't have an account? <a href="/Register">Signup</a></p>
+    </form>
+    <!--Signup Form-->
+    <form id="signup_form">
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" />
+      <label for="password">Password</label>
+      <input id="password" type="password" name="password" />
+      <input type="submit" value="Signup" class="banner_button" />
+      <p>Already have an account? <a href="/Login">Login</a></p>
+    </form>
+    <script src="login.js" type="module"></script>
+  </body>
+</html>
